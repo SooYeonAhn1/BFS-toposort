@@ -1,0 +1,39 @@
+# CMake build directory
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Compiled object files and binaries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.exe
+*.out
+*.app
+
+# CLion or VSCode IDE files (optional)
+.idea/
+.vscode/
+
+# Logs and debug
+*.log
+*.stackdump
+
+# Generated files
+*.autosave
+
+# Backup/swap files
+*~
+*.swp
+*.swo
+
+# MacOS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
