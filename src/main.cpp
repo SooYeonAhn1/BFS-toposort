@@ -63,7 +63,7 @@ int main() {
 
     three->addChildren(one);
 
-    std::unordered_set<std::shared_ptr<Node<int>>, NodePtrHash, NodePtrEqual> vertices, visited;
+    std::unordered_set<std::shared_ptr<Node<int>>, NodePtrHash, NodePtrEqual> vertices;
     vertices.insert(zero);
     vertices.insert(one);
     vertices.insert(two);
